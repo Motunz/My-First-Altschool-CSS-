@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F7FDFC;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-container{
+    padding: 60px;
+}
+
+.logo-container img{
+    width: 77.33px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.first-p{
+    font-size: 16px;
+    width: 600px;
+    word-spacing: 18px;
+    
+}
+.form-container{
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    gap: 30px;
+}
+
+.div-container input,
+.div-container select{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 1px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.div-container input:focus,
+.div-container select:hover{
+    outline: 1.5px solid grey;
+}
+
+.act input{
+    width: 100%;
+    height: 50px;
+    border-radius: 1px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.act{
+    line-height: 40px;
+}
+
+button{
+   background-color:#2ec4b6;
+   width: 100%;
+   height: 50px;
+   margin-top: 30px;
+   color: white;
+   border: 0;
+}
+.foot{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.foot span{
+    color: #2ec4b6;
+    text-decoration: underline;
+}
+
+/* Media Query */
+
+/* Tablet View (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .first-p {
+        font-size: 14px;
+        width: 500px;
+        word-spacing: 12px;
+    }
+
+    .div-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-container input,
+    .div-container select {
+        width: 100%;
+    }
+
+    .logo-container {
+        padding: 30px;
+    }
+}
+
+/* Mobile View (max-width: 768px) */
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        padding: 30px;
+    }
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .first-p {
+        font-size: 12px;
+        width: 300px;
+        word-spacing: 8px;
+        text-align: justify;
+    }
+
+    .form-container {
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .div-container input,
+    .div-container select {
+        width: 100%;
+    }
+
+    button {
+        height: 45px;
+    }
+
+    .foot {
+        font-size: 13px;
+    }
+
+    .logo-container img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+    

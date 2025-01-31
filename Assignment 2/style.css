@@ -1,0 +1,130 @@
+*{
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    height: 100%;
+}
+
+/* Header Style */
+header{
+    padding: 80px 264px 50px;
+}
+
+.first-h{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+}
+
+.first-p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 2rem;
+    width: 415px;
+    height: 60px;
+}
+
+.second-p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 350px;
+    height: 60px;
+
+
+}
+#bd1{
+    color: #009966;
+}
+#bd2{
+    color: #009966;
+}
+
+/* Main Style */
+.first-pg{
+    background-color: grey;
+    /*height: 450px;*/
+    padding: 72px 230px;
+    border-top: 8px outset hsl(0, 0%, 60%);
+}
+
+.main-p{
+    background-color: white;
+    /*
+    height: 312px;*/
+    padding: 80px 0px 0px 20px;
+    position: relative;
+    border-bottom: 8px #00000040 outset;
+    width: 850px;
+}
+
+.main-h{
+    background-color: #FFBF00;
+    font-size: 24px;
+    font-weight: 800;
+    border-bottom: 8px outset;
+    border-color:  #FFBF00;
+    line-height: 28.8px;
+    position: absolute;
+  top: 15px;
+  left: -10px;
+  padding: 10px 25px;
+}
+
+.pargra{
+    padding: 10px;
+    word-spacing: 5px;
+}
+.third-p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+.last-p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 15px 20px 20px 0px;
+    /*padding: 10px 30px 20px;*/
+
+}
+
+/* Tablet Media Query */
+
+@media screen and (max-width:1024px) {
+    .first-pg{
+        padding: 60px 0px;
+    }
+    .main-p{ width: 100%;
+        padding: 90px 0px 10px 20px;
+    }
+header{ padding: 80px 30px 50px;}
+.pargra{
+    word-spacing: 15px;
+}
+}
+
+
+/* Mobile Media Query*/
+@media screen and (max-width:768px) {
+    .first-p{  width: 315px;      
+    }
+
+    .main-h{
+        padding: 20px 65px 20px 35px;
+  right: 20px;
+    }
+.third-p{
+   padding: 50px 50px 10px 10px;
+}
+.last-p{
+    padding: 20px 50px 10px 10px;
+}
+}

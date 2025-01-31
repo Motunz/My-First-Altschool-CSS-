@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Questrial;
+}
+/* Header Styling*/
+header{
+    background: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    color:#0065FE ;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    padding-right: 30px;
+}
+
+.nav-links{
+    font-size: 18px;
+    color: #141414; 
+    padding-top: 10px;
+}
+
+.nav-links a{
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.nav-but{
+    display:flex;
+    gap: 10px;
+}
+.nav-but button{
+    padding: 0px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login{
+    background: none;
+    color: #0065FE;
+}
+.signup{
+    background-color: #0065FE;
+    color: white;
+    border-radius: 100px;
+    width: 142px;
+    height: 44px;
+}
+/* Hero Section*/
+.hero {
+    text-align: center;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 85px;
+    color: #141414;
+}
+.hero h1 span{
+    color: #005AE2;
+}
+.hero p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #141414;
+    padding: 20px 200px;
+    text-align: center;
+}
+.hero-but{
+    font-size: 16px;
+}
+.but1{
+    background-color: #0065FE;
+    color: white;
+    border-radius: 100px;
+    width: 142px;
+    height: 44px;
+    border: none;
+}
+.but2{
+    background: none;
+    color: #0065FE;
+    border: none;
+    padding-left: 30px;
+}
+.hero-img1{
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.hero-img2{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* Features Section*/
+.features{
+    padding: 60px 10%;
+    background-color: #F9FBFD;
+    color: #141414;
+}
+.features-flex{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.stop{
+    font-size: 40px;
+    line-height: 48px;
+}
+.stop span{
+    color: #005AE2;
+}
+.small-tab h1{
+    font-size: 32px;
+    line-height: 40px;
+}
+.small-tab p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Scissors Section*/
+
+.scissors{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 40px;
+    color: #141414;
+    padding: 40px 10px;
+}
+
+.why-sec h1{
+    font-size: 40px;
+    line-height: 32px;
+    padding-left: 22%;  
+}
+.why-sec h1 span{
+    color: #005AE2;
+}
+.why-sec p{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 28% 20px 23%;
+    
+}
+.url-tab{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    gap: 40px;
+    margin-right: 30px;
+
+}
+.url-tab h2{
+    font-size: 32px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+.url-tab img{
+    width: 56px;
+    height: 56px;
+    padding-bottom: 20px;
+}
+.url-tab p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.shortening, .custom{padding-bottom: 40px;
+}
+
+/* Pricing Section*/
+
+.Pricing{
+    padding: 60px 10%;
+    color: #141414;
+}
+.Pricing h2{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.Pricing span{
+    color: #005AE2;
+}
+.Pricing p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 25%;
+}
+.price-card{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.professional{
+    background-color: #1E3448;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.basic{
+    background-color:none;
+    color: #141414;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #005AE2;
+}
+.teams{
+    background-color:none;
+    color: #141414;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #005AE2;
+}
+.price-card h4{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+.price-card h2{
+    font-size: 32px;
+    line-height: 48px;
+}
+.price-card p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-card ul{
+    list-style-type: none;
+    padding: 0;
+}
+.price-card li{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.price-card li span{
+    padding: 20px; 
+}
+.Pricing button{
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 40px;
+}
+.custom-p{
+background-color: white;
+color: #0065FE;
+border-color: #0065FE;
+}
+.select-p{
+    background-color: #0065FE;
+    color: white;
+    border-color: #0065FE;
+    
+}
