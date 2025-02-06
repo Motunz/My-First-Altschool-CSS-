@@ -527,11 +527,21 @@ footer{
         font-size: 36px;
         line-height: 50px;
     }
-
+    .hero-img1{
+        width: 90%; 
+        max-width: 300px; 
+        display: block;
+        margin: 10px auto; 
+        position: relative;
+        top: 0;
+    }
     .hero p {
         padding: 10px;
     }
-
+    .professional{
+        position: relative;
+        top: 0px;
+    }
     .features,
     .Pricing,
     .Faqs {
