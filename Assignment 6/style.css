@@ -6,7 +6,7 @@
 }
 /* Header Styling*/
 header{
-    background: white;
+    background: url('./Asset/blurry-gradient\ background.svg') no-repeat center center/cover;  
     padding: 20px 10%;
     display: flex;
     justify-content: space-between;
@@ -62,6 +62,8 @@ nav{
     text-align: center;
     padding: 60px 10%;
     text-align: center;
+    background: url('./Asset/blurry-gradient\ background.svg') no-repeat center center/cover;  
+
 }
 
 .hero h1 {
@@ -214,6 +216,9 @@ nav{
     color: white;
     padding: 40px;
     border-radius: 12px;
+    position: relative;
+    top: -40px;
+    height: 550px;
 }
 
 .basic{
@@ -222,6 +227,7 @@ nav{
     padding: 40px;
     border-radius: 12px;
     border: 1px solid #005AE2;
+    height: 455px;
 }
 .teams{
     background-color:none;
@@ -229,6 +235,7 @@ nav{
     padding: 40px;
     border-radius: 12px;
     border: 1px solid #005AE2;
+    height: 455px;
 }
 .price-card h4{
     font-size: 20px;
@@ -255,22 +262,192 @@ nav{
 .price-card li span{
     padding: 20px; 
 }
-.Pricing button{
+.price-button{
     align-items: center;
     font-size: 16px;
     line-height: 24px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.price-button button{
     border-radius: 100px;
-    margin-left: 40px;
+    padding: 10px;
 }
 .custom-p{
 background-color: white;
 color: #0065FE;
 border-color: #0065FE;
+text-align: center;
 }
 .select-p{
     background-color: #0065FE;
     color: white;
     border-color: #0065FE;
+    text-align: center;  
+}
+/* Form Section*/
+.form-section{
+    background: url('./Asset/stacked-waves.svg') no-repeat center center/cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.form-container{
+    background-color: white;
+    border-radius: 12px;
+    width: 476px;
+}
+.form{
+    padding: 30px 20%;
+}
+.form-alias{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 20px;
+    gap: 20px;    
+}
+.form input, .form select{
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+ border: 1px solid #3284FF;
+}
+.form-container button{
+   width: 60%;
+   margin: 0px 20%;
+   background-color: #005AE2;
+   border: 1px solid #005AE2;
+   padding: 10px;
+   border-radius: 100px;
+   color: white;
+   font-size: 14px;
+}
+.form-container p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 70px;
+    color: #4991FF;
+}
+.form-container span{
+    color: #3284FF;
+    font-weight: bold;
+}
+
+/* FAQS SECTION */
+.Faqs{
+    padding: 30px 20%; 
+    background: url('./Asset/blob-background.svg') no-repeat center center/cover;
+}
+.first-faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Faqs h1{
+    font-size: 40px;
+    text-align: center;
+}
+.urlshort{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #141414;
+    padding: 0px 30px 15px 10px;
+}
+.Faqs p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #141414;
+    padding: 10px;
+}
+.Faqs img{ 
     
+}
+
+/* Get Started Section*/
+.getstarted{ background: url('./Asset/stacked-waves.svg') no-repeat center center/cover;  
+}  
+    
+h3{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+}
+.getstarted button{
+   margin: 30px 45%;
+   background-color: #005AE2;
+   border: 1px solid #005AE2;
+   padding: 10px 20px;
+   border-radius: 100px;
+   color: white;
+   font-size: 16px;
+   margin-bottom: 60px;
+}
+
+/* Last Page Section */
+.last-pg{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: url('./Asset/blob-background.svg') no-repeat center center/cover;
+ 
+}
+.scissor-tab1{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.scissor-tab2{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.social-sci{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.social-logo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.scissor-tab h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #071827;
+    font-weight: bold;
+}
+.scissor-tab p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #112232;
+}
+.why, .solution, .company, .legal, .product, .feat, .resources h4{ 
+    padding-bottom: 10px;  
+}
+.resources h4{
+    padding-top: 60px;
+}
+.solution h4{
+    padding-top: 30px;
+}
+.company h4{
+    padding-top: 60px;
+}
+
+/* Footer*/
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    size: 14px;
+    line-height: 20px;
+    color: #112232;
 }
